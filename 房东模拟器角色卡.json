@@ -1,0 +1,115 @@
+{
+  "avatar": "0",
+  "character_version": "v1.0",
+  "create_date": "2026-08-27T00:00:00.000Z",
+  "creator": "",
+  "creator_notes": "",
+  "creatorcomment": "",
+  "data": {
+    "alternate_greetings": [],
+    "character_book": {
+      "entries": [],
+      "extensions": {},
+      "name": "房东模拟器"
+    },
+    "character_version": "v1.0",
+    "creator": "",
+    "creator_notes": "",
+    "description": "",
+    "extensions": {
+      "depth_prompt": {
+        "depth": 4,
+        "prompt": "",
+        "role": "system"
+      },
+      "fav": false,
+      "regex_scripts": [],
+      "talkativeness": 0.5,
+      "tavern_helper": {
+        "scripts": [
+          {
+            "button": {
+              "buttons": [
+                {"name": "手机", "visible": true},
+                {"name": "住户管理", "visible": true},
+                {"name": "刷新", "visible": true}
+              ],
+              "enabled": true
+            },
+            "content": "import 'https://cdn.jsdelivr.net/gh/520ccb/landlord-tablet-plugin@main/bundle.js'",
+            "data": {},
+            "enabled": true,
+            "export_with": {
+              "button": true,
+              "data": true
+            },
+            "id": "0bed2505-c901-4ffc-9636-7536897da549",
+            "info": "房东模拟器外置平板插件 v1.0\n整合：手机增强 + 住户管理 + 自定义APP + 壁纸库 + 通讯录同步\n兼容：TauriTavern手机端 + 桌面端",
+            "name": "房东平板插件",
+            "type": "script"
+          }
+        ],
+        "variables": {
+          "phone_data": {
+            "_exportMeta": {"exportedAt": "2026-08-27", "source": "landlord-tablet-plugin", "version": "1.0"},
+            "backgrounds": [],
+            "characters": [],
+            "fonts": [],
+            "groups": [],
+            "map": {"districts": [], "name": "公寓地图"},
+            "music": [],
+            "randomAvatars": [
+              "https://aka.doubaocdn.com/s/UtTtFUOhWw",
+              "https://aka.doubaocdn.com/s/gYhCerdbOf",
+              "https://aka.doubaocdn.com/s/C914H7apeI",
+              "https://aka.doubaocdn.com/s/OWtUaX4Uzw",
+              "https://aka.doubaocdn.com/s/IpGQjfvBth",
+              "https://aka.doubaocdn.com/s/AqUbV7fIVG"
+            ],
+            "user": {
+              "avatar": "",
+              "bio": "公寓房东",
+              "chatListBg": "",
+              "email": "landlord@apartment.com",
+              "font": "",
+              "id": "user",
+              "name": "房东",
+              "nickname": "房东",
+              "phoneBg": "",
+              "state": "在线"
+            }
+          },
+          "phone_enhanced_wallpapers": [],
+          "phone_enhanced_wallpaper_idx": 0,
+          "cm_company_name": "落日与海湾",
+          "cm_balance": 50000,
+          "cm_wallpaper": "",
+          "cm_works": [],
+          "cm_tweets": [],
+          "cm_tasks": []
+        }
+      },
+      "world": "房东模拟器"
+    },
+    "first_mes": "<SceneInfo>\n地点：落日与海湾公寓\n时间：2026年8月27日 周四\n场景类型：日常\n在场角色：\n- 房东|便装\n</SceneInfo>\n\n你是落日与海湾公寓的房东，管理着一栋多层公寓楼。公寓里住着形形色色的住户，每个人都有自己的故事。你可以通过手机上的「住户管理」APP查看房源、发布招租、管理住户动态，也可以通过「招租」APP发布招租信息，通过「天眼」APP监控公寓公共区域。\n\n*你站在公寓大堂，手里拿着手机，准备开始今天的管理工作。*",
+    "group_only_greetings": [],
+    "mes_example": "",
+    "name": "房东模拟器",
+    "personality": "",
+    "post_history_instructions": "",
+    "scenario": "",
+    "system_prompt": "",
+    "tags": []
+  },
+  "description": "",
+  "fav": false,
+  "first_mes": "",
+  "mes_example": "",
+  "name": "房东模拟器",
+  "personality": "",
+  "scenario": "",
+  "spec": "chara_card_v2",
+  "spec_version": "2.0",
+  "tags": [],
+  "talkativeness": 0.5
+}
